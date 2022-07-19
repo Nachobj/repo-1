@@ -1417,6 +1417,24 @@ aside{
         justify-content: center;
         padding: 10px;
     }
+    header .slider{
+        height: 55vh;
+        width: 97vw;
+        margin: 5px;
+        background-size: cover;
+        animation-name: headerAnimate;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+    }
+    
+    @keyframes headerAnimate{
+        0%{background-image: url(../img/header/header-arg1.jpg);}
+        25%{background-image: url(../img/header/header-int.jpg);}
+        50%{background-image: url(../img/header/header-city.jpg);}
+        75%{background-image: url(../img/header/header-real1.jpg);}
+        100%{background-image: url(../img/header/header-13.jpg);}
+    }
+
 
   
 
